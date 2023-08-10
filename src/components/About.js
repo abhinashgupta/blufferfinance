@@ -3,7 +3,7 @@ import "../css/animation.css";
 import fish3 from "../images/fish3.png"
 const About = () => {
     return ( 
-        <div className="about-box">
+        <div className="about-box" id="about">
             <div className="about">
                 
             {/* <img src={left} className="left-img"/> */}

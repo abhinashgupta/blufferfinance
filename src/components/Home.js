@@ -11,21 +11,32 @@ import fish1 from "../images/fish1.png";
 import fish2 from "../images/fish2.png";
 import btn1 from "../images/btn-1.png"
 import btn2 from "../images/btn-2.png";
-
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 const Home = () => {
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setMenuOpen(!menuOpen);
+    };
     return ( 
         <div className="home-bg">
             <div className="home">
                 <div className="home-box">
                 <div className="navbar">
-                    <h2>FinGuard</h2>
-                    <div className="nav-btns">
-                        <button className="btn">Home</button>
-                        <button className="btn">Docs</button>
-                        <button className="btn">About</button>
-                        <button className="button">Staking Coming Soon</button>
+                        <h2>FinGuard</h2>
+                        <div className={`nav-btns ${menuOpen ? "active" : ""}`}>
+                            <button className="btn">Home</button>
+                            <button className="btn">Docs</button>
+                            <button className="btn">About</button>
+                            <button className="button">Staking Coming Soon</button>
+                        </div>
+                        <div className={`hamburger-menu ${menuOpen ? "active" : ""}`} onClick={toggleMenu}>
+                            <div className="bar"></div>
+                            <div className="bar"></div>
+                            <div className="bar"></div>
+                        </div>
                     </div>
-                </div>
                 <section className="home-section">
                     <div className="home-left">
                     <h4>Anti-Slashing Liquid Staking</h4>
