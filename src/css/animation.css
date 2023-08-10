@@ -1,0 +1,26 @@
+@keyframes homeanimation{
+    0% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(-5px);
+    }
+    70% {
+        transform: translateY(-14px);
+    }
+    100% {
+        transform: translateY(-18px);
+    }
+}
+@keyframes fish {
+    100% {
+        background-position: 50% 4px;
+        transform: translate(0, 17px) rotate(-8deg);
+    }
+}
+@keyframes banner {
+    100% {
+        background-position: 50% 4px;
+        transform: translate(0, 17px) rotate(-2deg);
+    }
+}

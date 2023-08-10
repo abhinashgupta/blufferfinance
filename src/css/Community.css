@@ -1,0 +1,42 @@
+.community{
+    max-width: 1350px;
+    margin: auto;
+    text-align: center;
+}
+.community h1{
+    font-size: 3rem;
+    line-height: 1;
+    margin: 5rem 0;
+}
+.community-logos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo-card{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.logo-card a{
+    text-decoration: none;
+}
+.logo-card p{
+    text-decoration: none;
+    color: black;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    margin-left: 20px;
+}
+@media screen and (max-width: 600px){
+    .community h1{
+        font-size: 2rem;
+        line-height: 1;
+        margin: 3rem 0;
+    }
+    .logo-card p{
+        font-size: 1rem;
+        line-height: 2rem;
+        margin-left: 5px;
+    }
+}

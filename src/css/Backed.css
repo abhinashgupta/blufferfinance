@@ -1,0 +1,102 @@
+.backed-by{
+    max-width: 1300px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+.backed-by h2{
+    font-size: 2.5rem;
+    line-height: 1;
+    margin-top: 20rem;
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+}
+.logos a{
+    width: 50%;
+}
+.logos img{
+width: 50%;
+}
+.logos img:hover{
+    cursor: pointer;
+}
+.bg{
+    position: absolute;
+    top: -300px;
+    right: 50%;
+    z-index: -1;
+    margin-right: 42px;
+    width: 36rem;
+    height: 35rem;
+    background: url(../images/bg-backed.png) center top / 36rem 35rem no-repeat;
+    animation: 4s linear 0s infinite alternate none running homeanimation;
+}
+@media screen and (max-width: 1000px){
+    .bg{
+        display: none;
+    }
+    .backed-by h2{
+        margin-top: 5rem;
+    }
+}
+@media screen and (max-width: 600px){
+    .backed-by h2{
+        font-size: 1.8rem;
+        line-height: 1;
+        margin-top: 2rem;
+    }
+    .grants-section h2{
+        font-size: 1.8rem;
+        margin: 2rem 0;
+    }
+    .logos{
+        margin-top: 3rem;
+    }
+}
+
+
+
+.granted{
+    position: relative;
+    max-width: 1350px;
+    margin: auto;
+    text-align: center;
+}
+.granted h2{
+    font-size: 2.8rem;
+    line-height: 1;
+    margin: 8rem 0;
+}
+.grants-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.grants-section a{
+    width: 50%;
+}
+.grants-section img{
+width: 40%;
+margin: 0 20px 20px 20px;
+}
+.grants-section p{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    text-align: center;
+}
+@media screen and (max-width: 600px){
+    
+    .granted h2{
+        font-size: 1.8rem;
+        margin: 2rem 0;
+    }
+    .grants-section p{
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+    
+}

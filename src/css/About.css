@@ -1,0 +1,104 @@
+
+.about-box{
+    position: relative;
+    background: url(../images//left.png) left top / 20rem 50rem no-repeat;
+    /* max-width: 1440px; */
+    margin: auto;
+    color: black;
+}
+.about{
+    margin-top: 20rem;
+    /* display: flex; */
+    color: black;
+}
+/* .left-img{
+    position: absolute;
+    top: 250px;
+    left: 0px;
+    width: 20rem;
+    height: 50rem;
+} */
+.fish3-img{
+    position: absolute;
+    /* top: 30px; */
+    top: 212px;
+    /* left: 90px; */
+    left: 232px;
+    z-index: 1;
+    width: 206px;
+    height: 180px;
+    animation: 1s linear 0s infinite alternate none running homeanimation;
+}
+.about-info{
+    margin-left: 580px;
+    width: 1000px;
+}
+.about-info h2{
+        margin: 20px 0;
+        font-size: 42px;
+        font-weight: 700;   
+}
+.about-info h6{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.235;
+}
+.about-info p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 400;
+}
+@media screen and (max-width: 1580px){
+    .about-info{
+        max-width: 800px;
+    }
+}
+@media screen and (max-width: 1380px){
+    .about-info{
+        max-width: 650px;
+    }
+}
+
+@media screen and (max-width: 1120px){
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-info{
+        max-width: 550px;
+        margin-left: 450px !important ;
+    }
+    
+}
+@media screen and (max-width: 1000px){
+        
+    
+    .fish3-img {
+        display: none;
+    }
+    .about-info{
+        margin-left: 220px !important;
+        max-width: 650px;
+    }
+} 
+@media screen and (max-width: 910px){
+    .about-info{
+        margin:50px !important;
+        width: auto;
+    }
+    .about-info h2{
+        font-size: 38px;
+}
+.about-info h6{
+    font-size: 28px;
+}
+.about-info p{
+    font-size: 1.4rem;
+}
+}
+@media screen and (max-width: 400px){
+    .about-info{
+        margin:20px !important;
+        width: auto;
+    }
+}
