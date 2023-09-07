@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/blufferfinance/static/css/main.80dde90d.css",
+    "main.js": "/blufferfinance/static/js/main.ac209f06.js",
+    "static/media/background.png": "/blufferfinance/static/media/background.0db2f019e42a3c84d4df.png",
+    "static/media/bg-footer.png": "/blufferfinance/static/media/bg-footer.dc329165017cc18b8186.png",
+    "static/media/new logo 1 (2).png": "/blufferfinance/static/media/new logo 1 (2).a1bf04e1f3f4ba0cfc21.png",
+    "static/media/logo 3.png": "/blufferfinance/static/media/logo 3.680b53e69b8bb6990d47.png",
+    "static/media/img3.png": "/blufferfinance/static/media/img3.67ce4ca1d4da012ed19f.png",
+    "static/media/img1.png": "/blufferfinance/static/media/img1.26eacc848f815455b8a4.png",
+    "static/media/left.png": "/blufferfinance/static/media/left.2e28f856bec63068ebf4.png",
+    "static/media/join2.jpg": "/blufferfinance/static/media/join2.0d7f083519dcc14c5a5f.jpg",
+    "static/media/WhatsApp_Image_2023-09-07_at_1.16.45_PM-removebg-preview.png": "/blufferfinance/static/media/WhatsApp_Image_2023-09-07_at_1.16.45_PM-removebg-preview.0a37cd84593306d3f9b8.png",
+    "static/media/ripple.png": "/blufferfinance/static/media/ripple.93801aba50f7af6a4550.png",
+    "static/media/eth-foundation.png": "/blufferfinance/static/media/eth-foundation.c586d6ec821d3f4d0955.png",
+    "static/media/bg-backed.png": "/blufferfinance/static/media/bg-backed.fc765a6af2b904d0d4a7.png",
+    "static/media/foot.png": "/blufferfinance/static/media/foot.cc0930ce422715204baf.png",
+    "static/media/backer-arcanum-logo.png": "/blufferfinance/static/media/backer-arcanum-logo.7e6429371c07bd5aeabd.png",
+    "static/media/btn-2.png": "/blufferfinance/static/media/btn-2.6a9c4d66f5960cc6b7e9.png",
+    "static/media/backer-jump-logo.png": "/blufferfinance/static/media/backer-jump-logo.6005a2a498fc0bbf230c.png",
+    "static/media/home.svg": "/blufferfinance/static/media/home.9b9e3b05100dd9cb6a67ec8076197d94.svg",
+    "static/media/fish.svg": "/blufferfinance/static/media/fish.d111e527c4310bd3d30d.svg",
+    "static/media/fish1.svg": "/blufferfinance/static/media/fish1.0413330135a4786fb594.svg",
+    "index.html": "/blufferfinance/index.html",
+    "static/media/medium.svg": "/blufferfinance/static/media/medium.8b83ff36655771023e91dddebf44c96e.svg",
+    "main.80dde90d.css.map": "/blufferfinance/static/css/main.80dde90d.css.map",
+    "main.ac209f06.js.map": "/blufferfinance/static/js/main.ac209f06.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80dde90d.css",
+    "static/js/main.ac209f06.js"
+  ]
+}
