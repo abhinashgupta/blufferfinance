@@ -1,28 +1,52 @@
 import "../css/About.css";
 import "../css/animation.css";
-import fish3 from "../images/fish3.png"
+import fish3 from "../images/WhatsApp_Image_2023-09-07_at_1.16.45_PM-removebg-preview.png"
 const About = () => {
-    return ( 
-        <div className="about-box" id="about">
-            <div className="about">
-                
-            {/* <img src={left} className="left-img"/> */}
-            <img src={fish3} className="fish3-img"/>
-           
-            <div className="about-info">
-                <h2>About FinGuard</h2>
-                <h6>FinGuard is defining a new industry standard for secure validator operations with the primary objective of preserving decentralization.
-                </h6>
-                <br></br><br></br>
-                <p>FinGuard's Anti-Slashing technologies are designed to minimize the chance of slashing events. Our Secure-Signer technology is released as a public good to help protect solo stakers and the wider staking industry from correlated slashing penalties.</p>
-                <br></br>
-                <p>Our Secure-Aggregator technology provides the foundation to build a secure, scalable, and performant liquid staking protocol. Allowing permissionless and capital-efficient Node Operator (NoOp) participation allows anyone to join the FinGuardPool to help preserve Ethereum's decentralization.</p>
-                <br></br>
-                <p>At FinGuard, we're always thinking ahead and seeking new ways to advance the scalability of Ethereum. Our Anti-Slashing technologies reduce the risk of slashing events and pave the way for future safe and secure re-staking services. These services can be seamlessly integrated with upcoming technologies like ZK-2FA, further improving the security and efficiency of layer-2 solutions. We're committed to maintaining the core values of Ethereum while providing innovative and sustainable solutions that benefit the entire community.</p>
-            </div>
+    return (
+      <div className="about-box" id="about">
+        <div className="about">
+          {/* <img src={left} className="left-img"/> */}
+          <img src={fish3} className="fish3-img" />
+
+          <div className="about-info">
+            <h2>Regarding Blufferfinance</h2>
+            <h6>
+              Blufferfinance is setting a new benchmark in secure validator
+              procedures, primarily aimed at maintaining decentralization.
+            </h6>
+            <br></br>
+            <br></br>
+            <p>
+              Blufferfinance's anti-penalty measures aim to reduce the
+              likelihood of slashing incidents. Our Secure-Signer solution is
+              made publicly available to safeguard individual stakers as well as
+              the broader staking sector from synchronized slashing fines.
+            </p>
+            <br></br>
+            <p>
+              Our Secure-Aggregator technology lays the groundwork for
+              constructing a safe, scalable, and efficient liquid staking
+              system. By enabling unrestricted and capital-effective Node
+              Operator (NoOp) involvement, anyone can join the
+              BlufferfinancePool to contribute to maintaining the
+              decentralization of Ethereum.
+            </p>
+            <br></br>
+            <p>
+              At Blufferfinance, we're constantly innovating to enhance
+              Ethereum's scalability. Our Anti-Slashing measures lessen the
+              likelihood of slashing incidents, setting the stage for the safe
+              re-staking services of the future. These services can easily align
+              with emerging technologies such as ZK-2FA, further boosting
+              layer-2 security and efficiency. We remain dedicated to upholding
+              Ethereum's fundamental principles while delivering creative and
+              long-lasting solutions for the collective benefit of the
+              community.
+            </p>
+          </div>
         </div>
-        </div>
-     );
+      </div>
+    );
 }
  
 export default About;

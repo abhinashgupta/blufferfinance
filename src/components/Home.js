@@ -11,6 +11,9 @@ import fish1 from "../images/fish1.png";
 import fish2 from "../images/fish2.png";
 import btn1 from "../images/btn-1.png"
 import btn2 from "../images/btn-2.png";
+import medium from "../images/medium.svg"
+import whatsapp from "../images/WhatsApp_Image_2023-09-07_at_1.16.45_PM-removebg-preview.png"
+import twitter from "../images/icons8-twitter-50.png"
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 const Home = () => {
@@ -19,55 +22,96 @@ const Home = () => {
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
     };
-    return ( 
-        <div className="home-bg">
-            <div className="home">
-                <div className="home-box">
-                <div className="navbar">
-                        <h2>FinGuard</h2>
-                        <div className={`nav-btns ${menuOpen ? "active" : ""}`}>
-                            <button className="btn">Home</button>
-                            <button className="btn">Docs</button>
-                            <button className="btn">About</button>
-                            <button className="button">Staking Coming Soon</button>
-                        </div>
-                        <div className={`hamburger-menu ${menuOpen ? "active" : ""}`} onClick={toggleMenu}>
-                            <div className="bar"></div>
-                            <div className="bar"></div>
-                            <div className="bar"></div>
-                        </div>
-                    </div>
-                <section className="home-section">
-                    <div className="home-left">
-                    <h4>Anti-Slashing Liquid Staking</h4>
-                    <p>Earn While decentralizing Ethereum</p>
-                    <button className="home-button button">Staking Coming Soon</button>
-                    </div>
-                    <img src={home_img}/>
-                </section>
-                <div className="images">
-                    <img src={footImg} className="foot-img"/>
-                    <img src={rippleImg} className="ripple-img"/>
-                    <img src={banner1} className="banner-img1"/>
-                    <img src={banner2}className="banner-img2" />
-                    <img src={banner3} className="banner-img3"/>
-                    <img src={banner4} className="banner-img4"/>
-                    <img src={fish1} className="fish1-img"/>
-                    <img src={fish2} className="fish2-img"/>
+    return (
+      <div className="home-bg">
+        <div className="home">
+          <div className="home-box">
+            <div className="navbar">
+              <h2>
+                <img src={whatsapp} height={55} alt="" />
+                Blufferfinance
+              </h2>
+              <div className={`nav-btns ${menuOpen ? "active" : ""}`}>
+                <button className="btn">Home</button>
+                <button className="btn">Docs</button>
+                <button className="btn">About</button>
+                <button
+                  style={{
+                    background: "transparent",
+                    display: "flex",
+                    justifyContent: "space-around",
+                    gap: "1.8vw",
+                    marginRight: "-5vw",
+                    marginTop: "1vw",
+                  }}
+                  className="button"
+                >
+                  <img
+                    src={twitter}
+                    style={{ marginTop: ".2vw" }}
+                    height={25}
+                    alt=""
+                  />
+                  <i
+                    style={{
+                      color: "white",
+                      fontSize: "2vw",
+                      marginTop: "-.3vw",
+                    }}
+                    class="ri-telegram-line"
+                  ></i>
+                  <img
+                    height={35}
+                    style={{ marginTop: "-.2vw" }}
+                    src={medium}
+                    alt=""
+                  />
+                </button>
+              </div>
+              <div
+                className={`hamburger-menu ${menuOpen ? "active" : ""}`}
+                onClick={toggleMenu}
+              >
+                <div className="bar"></div>
+                <div className="bar"></div>
+                <div className="bar"></div>
+              </div>
             </div>
+            <section className="home-section">
+              <div className="home-left">
+                <h4>Liquid Staking with Anti-Penalty Measures</h4>
+                <p>
+                  Make income while contributing to the decentralization of
+                  Ethereum
+                </p>
+                <button className="home-button button">
+                  Staking Coming Soon
+                </button>
+              </div>
+              <img src={home_img} />
+            </section>
+            <div className="images">
+              <img src={footImg} className="foot-img" />
+              <img src={rippleImg} className="ripple-img" />
+              <img src={banner1} className="banner-img1" />
+              <img src={banner2} className="banner-img2" />
+              <img src={banner3} className="banner-img3" />
+              <img src={banner4} className="banner-img4" />
+              <img src={fish1} className="fish1-img" />
+              <img src={fish2} className="fish2-img" />
             </div>
-            </div>
-                    <div className="coming-soon">
-                        <p className="left">TOTAL ETH STAKED</p>
-                        <p className="center">Coming Soon</p>
-                        <div>
-                        <img src={btn1} className="btn1-img"/>
-                        <img src={btn2} className="btn2-img"/>
-                        </div>
-                    </div>
-                    
+          </div>
         </div>
-     );
+        <div className="coming-soon">
+          <p className="left">TOTAL ETH STAKED</p>
+          <p className="center">Coming Soon</p>
+          <div>
+            <img src={btn1} className="btn1-img" />
+            <img src={btn2} className="btn2-img" />
+          </div>
+        </div>
+      </div>
+    );
 }
  
 export default Home;

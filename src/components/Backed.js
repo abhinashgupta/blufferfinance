@@ -5,33 +5,24 @@ import iotexLogo from "../images/backer-iotex-logo.png"
 import ethLogo from "../images/eth-foundation.png"
 
 const Backed = () => {
-    return ( <div>
-        <div className="backed-by">
-            <h2>Backed by</h2>
-            <div className="bg"></div>
-            <div className="logos">
-                <a href="https://jumpcrypto.com/">
-                <img src={jumpLogo}/>
-                </a>
-                <a href="https://www.arcanum.capital/">
-                <img src={arcanumLogo}/>
-                </a>
-                <a href="https://jumpcrypto.com/">
-                <img src={iotexLogo}/>
-                </a>
-            </div>
-        </div>
-
+    return (
+      <div>
         <div className="granted">
-            <h2>Grants</h2>
-            <div className="grants-section">
-                <a href="https://ethereum.org/en/">
-                    <img src={ethLogo}/>
-                </a>
-                <p>FinGuard is approved to recieve a grant from the Ethereum Foundation to build Secure-Signer, an open source software that helps secure validator operations and prevents slashable offenses. Stay tuned for more.</p>
-            </div>
+          <h2 style={{marginTop:"5vw" , position:"relative" , top:"2vw" , fontSize:"4vw" , letterSpacing:".5vw" , fontFamily:"gilroy"}}>Funding</h2>
+          <div className="grants-section">
+            <a href="https://ethereum.org/en/">
+              <img height={70} style={{marginTop:"-1vw" , position:"relative" , top:"-1.5vw" , marginLeft:".8vw"}} src={ethLogo} />
+            </a>
+            <p style={{fontSize:"2vw"}}>
+              Blufferfinance has received authorization for a grant from the
+              Ethereum Foundation to develop Secure-Signer, an open-source tool
+              aimed at bolstering the security of validator activities and
+              averting slashing violations. More updates to come.
+            </p>
+          </div>
         </div>
-    </div> );
+      </div>
+    );
 }
  
 export default Backed;
