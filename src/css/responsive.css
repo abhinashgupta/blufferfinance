@@ -2,6 +2,10 @@
 
 
 @media screen and (max-width: 1480px){
+    .home-bg{
+    width: 109%;
+   
+}
     /* home page responsive */
     .home-box{
         max-width: 1040px;
@@ -28,6 +32,7 @@
         margin-bottom: 1.4rem;
         margin-left: 11vw;
     }
+   
     .home-bg p{
         font-size: 28px;
         margin-bottom: 2rem;
