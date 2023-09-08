@@ -3,6 +3,7 @@
     max-width: 1440px;
     margin: auto;
     box-sizing: border-box;
+   
 }
 
 *{
@@ -14,6 +15,7 @@
     color: white;
 }
 .home-bg{
+    overflow: hidden;
     width: 100%;
     height: 1100px;
     background: linear-gradient(180deg, #D8E5FF -40.28%, #5547FB 44.47%, #000584 100%);
