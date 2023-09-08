@@ -2,10 +2,6 @@
 
 
 @media screen and (max-width: 1480px){
-    .home-bg{
-    width: 109%;
-   
-}
     /* home page responsive */
     .home-box{
         max-width: 1040px;
@@ -19,6 +15,12 @@
 }
 
 
+@media screen and (max-width: 1200px){
+    .home-bg{
+    width: 109%;
+   
+}
+}
 
 @media screen and (max-width: 1120px){
     /* home page responsive */
