@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/blufferfinance/static/css/main.d42ac3be.css",
+    "main.css": "/blufferfinance/static/css/main.508bbdad.css",
     "main.js": "/blufferfinance/static/js/main.9a969b6f.js",
     "static/media/background.png": "/blufferfinance/static/media/background.0db2f019e42a3c84d4df.png",
     "static/media/bg-footer.png": "/blufferfinance/static/media/bg-footer.dc329165017cc18b8186.png",
@@ -23,11 +23,11 @@
     "static/media/fish1.svg": "/blufferfinance/static/media/fish1.0413330135a4786fb594.svg",
     "index.html": "/blufferfinance/index.html",
     "static/media/medium.svg": "/blufferfinance/static/media/medium.8b83ff36655771023e91dddebf44c96e.svg",
-    "main.d42ac3be.css.map": "/blufferfinance/static/css/main.d42ac3be.css.map",
+    "main.508bbdad.css.map": "/blufferfinance/static/css/main.508bbdad.css.map",
     "main.9a969b6f.js.map": "/blufferfinance/static/js/main.9a969b6f.js.map"
   },
   "entrypoints": [
-    "static/css/main.d42ac3be.css",
+    "static/css/main.508bbdad.css",
     "static/js/main.9a969b6f.js"
   ]
 }
