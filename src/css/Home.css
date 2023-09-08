@@ -39,6 +39,9 @@
     padding-bottom: 0.5rem;
     align-items: center;
 }
+.navbar>h2{
+    margin-top: 2vw;
+}
 .nav-btns{
     display: flex;
     flex-direction: row;
@@ -68,8 +71,17 @@
     cursor: pointer;
     opacity: 1;
 }
-.button:hover{
-    opacity: 0.8;
+.corner{
+    margin-left: 1.6vw;
+    margin-right: -3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5vw;
+}
+.corner>img:hover{
+    opacity: .8;
+    cursor: pointer;
 }
 .home-section{
     display: flex;
