@@ -1,7 +1,4 @@
 import "../css/Backed.css"
-import jumpLogo from "../images/backer-jump-logo.png"
-import arcanumLogo from "../images/backer-arcanum-logo.png"
-import iotexLogo from "../images/backer-iotex-logo.png"
 import ethLogo from "../images/images__2_-removebg-preview.png"
 
 const Backed = () => {
