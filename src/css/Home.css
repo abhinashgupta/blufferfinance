@@ -131,7 +131,7 @@
     bottom: -1px;
     left: 0;
     z-index: 5;
-    width: 170%;
+    width: 165%;
     height: 425px;
     /* right: 10px; */
     left: -300px;
@@ -204,7 +204,7 @@
     /* max-width: 1300px; */
     height: 7vw;
     position: relative;
-    width: 100vw;
+    width: 97vw;
     margin: auto;
     display: flex;
     align-items: center;
@@ -229,11 +229,11 @@
     margin-left: 3vw;
 }
 .btn1-img{
-    position: relative;
+     position: relative;
     display: block;
     /* right: 11.9rem; */
     top: 9.5rem;
-    left: 40px;
+    left: 21px;
     width: 9.6rem;
     height: 10.6rem;
 }
@@ -241,7 +241,7 @@
     position: relative;
     display: block;
     /* right: 0; */
-    left: 70px;
+    left: 20px;
     top: 40px;
     width: 20rem;
     height: 21.5rem;
