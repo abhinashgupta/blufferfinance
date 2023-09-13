@@ -55,8 +55,7 @@ const Home = () => {
             <div className="home-left">
               <h4>Liquid Staking with Anti-Penalty Measures</h4>
               <p>
-                Make income while contributing to the decentralization of
-                Ethereum
+                Elevate Your Validator Unleash <br /> Its Superpowers
               </p>
               <button className="home-button button">
                 Staking Coming Soon
