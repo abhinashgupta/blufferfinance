@@ -4,7 +4,7 @@ import ethLogo from "../images/images__2_-removebg-preview.png"
 const Backed = () => {
     return (
       <div>
-        <div className="granted">
+        {/* <div className="granted">
           <h2 style={{marginTop:"5vw" , position:"relative" , top:"2vw" , fontSize:"4vw" , letterSpacing:".5vw" , fontFamily:"gilroy"}}>Funding</h2>
           <div className="grants-section">
             <a href="https://ethereum.org/en/">
@@ -17,7 +17,7 @@ const Backed = () => {
               averting slashing violations. More updates to come.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     );
 }

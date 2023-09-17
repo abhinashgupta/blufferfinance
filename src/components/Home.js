@@ -16,7 +16,8 @@ import whatsapp from "../images/WhatsApp_Image_2023-09-07_at_1.16.45_PM-removebg
 import twitter from "../images/icons8-twitterx-100.png";
 import telegram from "../images/icons8-telegram-app-100.png";
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+import about from "./About"
 const Home = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -35,7 +36,18 @@ const Home = () => {
             <div className={`nav-btns ${menuOpen ? "active" : ""}`}>
               <button className="btn">Home</button>
               <button className="btn">Docs</button>
-              <button className="btn">About</button>
+              <button
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.scrollTo({
+                    top: document.querySelector("#about").offsetTop,
+                    behavior: "smooth",
+                  });
+                }}
+                className="btn"
+              >
+                About
+              </button>
               <div className="corner">
                 <img src={twitter} height={20} alt="" />
                 <img src={telegram} height={20} alt="" />
@@ -53,10 +65,10 @@ const Home = () => {
           </div>
           <section className="home-section">
             <div className="home-left">
-              <h4>Liquid Staking with Anti-Penalty Measures</h4>
-              <p>
-                Elevate Your Validator Unleash <br /> Its Superpowers
-              </p>
+              <h4 style={{ fontWeight: "bold" }}>
+                Slash-Resistant, Fluid Freedom
+              </h4>
+              <p>Empower Your Verifier</p>
               <button className="home-button button">
                 Staking Coming Soon
               </button>
