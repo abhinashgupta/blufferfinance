@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/blufferfinance/static/css/main.c139efbb.css",
-    "main.js": "/blufferfinance/static/js/main.3501d15f.js",
+    "main.css": "/blufferfinance/static/css/main.2bc2d5bc.css",
+    "main.js": "/blufferfinance/static/js/main.b4947d02.js",
     "static/media/background.png": "/blufferfinance/static/media/background.0db2f019e42a3c84d4df.png",
     "static/media/bg-footer.png": "/blufferfinance/static/media/bg-footer.dc329165017cc18b8186.png",
     "static/media/new logo 1 (2).png": "/blufferfinance/static/media/new logo 1 (2).a1bf04e1f3f4ba0cfc21.png",
@@ -21,11 +21,11 @@
     "static/media/fish1.svg": "/blufferfinance/static/media/fish1.0413330135a4786fb594.svg",
     "index.html": "/blufferfinance/index.html",
     "static/media/medium.svg": "/blufferfinance/static/media/medium.8b83ff36655771023e91dddebf44c96e.svg",
-    "main.c139efbb.css.map": "/blufferfinance/static/css/main.c139efbb.css.map",
-    "main.3501d15f.js.map": "/blufferfinance/static/js/main.3501d15f.js.map"
+    "main.2bc2d5bc.css.map": "/blufferfinance/static/css/main.2bc2d5bc.css.map",
+    "main.b4947d02.js.map": "/blufferfinance/static/js/main.b4947d02.js.map"
   },
   "entrypoints": [
-    "static/css/main.c139efbb.css",
-    "static/js/main.3501d15f.js"
+    "static/css/main.2bc2d5bc.css",
+    "static/js/main.b4947d02.js"
   ]
 }
